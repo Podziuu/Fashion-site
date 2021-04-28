@@ -1,6 +1,7 @@
 body {
     background-color: #764400;
     margin: 0 2em;
+    font-family: 'Roboto', sans-serif;
 }
 
 section {
@@ -12,22 +13,22 @@ section {
 
 h1 {
     margin: 0;
-    font-size: 5em;
+    font-size: 6em;
     font-style: italic;
     color: #a66000;
     font-weight: bold;
-    margin-top: 0.5em;
 }
 
 #container {
     margin: 0 auto;
     padding: 5em;
-    max-width: 60%;
+    max-width: 1200px;
 }
 
 .fas {
     font-size: 5em;
     color: #764400;
+    margin-bottom: 0.5em;
 }
 
 #nav {
@@ -41,9 +42,36 @@ h1 {
     color: white;
     background-color: #a66000;
     padding: 1rem;
-    transform: scale(0.7);
+    font-weight: bold;
 }
 
-#visit::after {
-    transform: skew(-30deg);
+#skewme {
+    transform: skew(-20deg);
+}
+
+h2 {
+    font-size: 3.5em;
+    font-style: italic;
+    margin-bottom: 1em;
+}
+
+h2+p {
+    font-size: 2.3em;
+    font-weight: lighter;
+}
+
+#img1 {
+    position: absolute;
+    top: 30%;
+    left: 56%;
+    box-shadow: 30px 30px #764400;
+}
+
+#img2 {
+    position: relative;
+    margin-top: 3em;
+    height: 550px;
+    width: 600px;
+    object-fit: cover;
+    box-shadow: -30px -30px #764400;
 }
